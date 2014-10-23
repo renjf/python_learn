@@ -5,7 +5,7 @@ import GetIP
 import GetCity  
 import GetCityID  
 import GetCityWeather  
-
+from multiprocessing import Process 
 
 def get_id_by_name(name):
 	city_dic={};
@@ -85,9 +85,14 @@ def weatherinfo_by_default_name():
 		st=weatherinfo_byname(cityname)
 		return st
 
+def one_process(cityname):
+	st=weatherinfo_byname(cityname)
+	print_weather_info(st)
+
 def weatherinfo_create_allcity_cache():
-	#fp_r=open("./config/city_id.txt","r")
-	fp_r=open("./config/province_city_id.txt","r")
+	fp_r=open("./config/city_id.txt","r")
+#	fp_r=open("./config/province_city_id.txt","r")
+	mul_jobs=[]
 	while True:
 		line=fp_r.readline().replace('\n','').replace('\r','');
 		if line=='':
@@ -95,9 +100,15 @@ def weatherinfo_create_allcity_cache():
 		if line[0]=='#' or line[0]=='\n':
 			continue
 		city_map=line.split('\t');
-		st=weatherinfo_byname(city_map[0])
-		print_weather_info(st)		
-	fp_r.close()	
+		proc=Process(target=one_process,args=(city_map[0],));
+		mul_jobs.append(proc);
+		proc.start();
+		#one_process(city_map[0])
+		#st=weatherinfo_byname(city_map[0])
+		#print_weather_info(st)		
+	for p in mul_jobs:
+		p.join()
+	fp_r.close()
 			
 #st=auto_get_weather_info()
 #st=weatherinfo_byname('上海')
