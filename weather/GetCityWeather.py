@@ -7,15 +7,39 @@ import urllib2
 import httplib  
 import json  
 import os
+import time
 
+ONEHOURSEC=60*60
+
+def judge_cachefile_chekout_time(filename):
+	last_modify_time=os.path.getmtime(filename)
+	now_time=time.time()
+	last_date=time.strftime('%Y-%m-%d',time.localtime(last_modify_time)) 
+	now_date=time.strftime('%Y-%m-%d',time.localtime(now_time))
+	
+	if last_date != now_date:
+		#第二天更新缓存
+		return True
+	elif abs(now_time - last_modify_time)>=6*ONEHOURSEC:
+		#文件超过 6小时 更新缓存
+		return True
+	else:
+		return False
+	
 def SwitchGetCityWeather(cityURL):
 	if cityURL=='':
 		return ''
 	name_map=cityURL.split('/');
 	file_name='./data/%s'%(name_map[-1]);
 	if os.path.exists(file_name):
-		st=GetCityWeather_byfile(file_name)
-		return st
+		#判断缓存文件是否超时
+		if judge_cachefile_chekout_time(file_name)==True:
+			st=GetCityWeather(cityURL)	
+			return st
+		else:
+			#未超时，直接读取缓存文件
+			st=GetCityWeather_byfile(file_name)
+			return st
 	else:
 		st=GetCityWeather(cityURL)	
 		return st
@@ -60,11 +84,13 @@ def GetCityWeather(cityURL):
 def save_weather_html(content,cityURL):
 	
 	name_map=cityURL.split('/');
-	file_name='./data/%s'%(name_map[-1]);
+	file_name='./data/%s.tmp'%(name_map[-1]);
+	dst_file_name='./data/%s'%(name_map[-1]);
 	try:
 		fp_w=open(file_name,"w")
 		fp_w.write(content);
-		fp_w.close()
+		fp_w.close()	
+		os.rename(file_name,dst_file_name)		
 		print
 	except :
 		print 'save file error'

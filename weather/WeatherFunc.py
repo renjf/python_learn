@@ -9,7 +9,7 @@ import GetCityWeather
 
 def get_id_by_name(name):
 	city_dic={};
-	f=open("./config/city_id.txt")
+	f=open("./config/city_id.txt","r")
 	while True:
 		line=f.readline();
 		if line=='':
@@ -41,18 +41,15 @@ def print_weather_info(st):
 #联网后自动根据本机IP地址，查询归属地天气
 def auto_get_weather_info():
 	ip = GetIP.GetIP()  
-	print ip  
-
+	#print ip  
 	# 国家/省份/城市  
 	city = ["", "", ""]  
 	GetCity.GetCity(ip, city)  
-	print city[0], city[1], city[2]  
-
+	#print city[0], city[1], city[2]  
 	provinceURL=GetCityID.GetProvinceURL(city[1])  
 	cityURL=GetCityID.GetCityURL(provinceURL, city[2])  
-	print provinceURL  
-	print cityURL  
-
+	#print provinceURL  
+	#print cityURL  
 #	st = GetCityWeather.GetCityWeather(cityURL)  
 	st=GetCityWeather.SwitchGetCityWeather(cityURL)
 	return st
@@ -67,20 +64,45 @@ def  weatherinfo_byname(city_name):
 	st=GetCityWeather.SwitchGetCityWeather(cityURL)
 	return st
 
-''''
-fp_r=open('./config/province_city_id.txt',"r");
-while True:
-	line=fp_r.readline().decode("utf-8")
-	if line == '':
-		break;
-	if line[0] =='\n' or line[0] =='#':
-		continue
-	city_map=line.replace('\n','').replace('\r','').split('\t')
-	print '%s %s' %(city_map[0],city_map[1])
-	weatherinfo(city_map[0],city_map[1])
-'''
+#设定默认查询的城市
+def  set_default_cityname(cityname):
+	city_id=get_id_by_name(cityname);
+	if city_id=='':
+		return False
+	fp_w=open("./config/default_city.txt","w")
+	fp_w.write(cityname);
+	fp_w.close()
+	return True
+		
+#根据默认的城市查询天气	
+def weatherinfo_by_default_name():
+	fp_w=open("./config/default_city.txt","r")
+	cityname=fp_w.readline().replace('\n','').replace('\r','');
+	fp_w.close()
+	if cityname=='':
+		print 'please set default cityname'
+	else:
+		st=weatherinfo_byname(cityname)
+		return st
+
+def weatherinfo_create_allcity_cache():
+	#fp_r=open("./config/city_id.txt","r")
+	fp_r=open("./config/province_city_id.txt","r")
+	while True:
+		line=fp_r.readline().replace('\n','').replace('\r','');
+		if line=='':
+			break;
+		if line[0]=='#' or line[0]=='\n':
+			continue
+		city_map=line.split('\t');
+		st=weatherinfo_byname(city_map[0])
+		print_weather_info(st)		
+	fp_r.close()	
+			
 #st=auto_get_weather_info()
-st=weatherinfo_byname('常州')
+#st=weatherinfo_byname('上海')
+#st=weatherinfo_byname('宝山')
 #st=GetCityWeather.SwitchGetCityWeather("http://m.weather.com.cn/atad/101020100.html")
-print_weather_info(st)
+#print_weather_info(st)
+
 
