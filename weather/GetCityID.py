@@ -8,38 +8,54 @@ import HTMLParser
 import httplib  
 from bs4 import BeautifulSoup  
 
-def GetProvinceURL(province):  
-	response = urllib2.urlopen('http://www.weather.com.cn/textFC/hn.shtml')  
-	htmlByte = response.read()  
-	htmlStr = htmlByte.decode("utf8")  
-	soup2 = BeautifulSoup(htmlStr)  
-	div = soup2.find("div", class_ = "lqcontentBoxheader")  
-	lista = div.find_all("a")  
-	provinceURL = "http://www.weather.com.cn"  
-	for aItem in lista:  
-		if aItem.text == province:  
-			provinceURL = provinceURL + aItem["href"]  
-			break  
+def GetProvinceURL(province): 
+	try: 
+		response = urllib2.urlopen('http://www.weather.com.cn/textFC/hn.shtml')  
+		htmlByte = response.read()  
+		htmlStr = htmlByte.decode("utf8")  
+		soup2 = BeautifulSoup(htmlStr)  
+		div = soup2.find("div", class_ = "lqcontentBoxheader")  
+		lista = div.find_all("a")  
+		provinceURL = "http://www.weather.com.cn"  
+		for aItem in lista:  
+			if aItem.text == province:  
+				provinceURL = provinceURL + aItem["href"]  
+				break  
+		return provinceURL  
+	except:
+		print 'urlopen url:http://www.weather.com.cn/textFC/hn.shtml error'
+		return ''
 
-	return provinceURL  
-
-def GetCityURL(provinceURL, city):  
-	response = urllib2.urlopen(provinceURL)  
+def GetCityURL(provinceURL, city): 
+	if provinceURL=='' or city=='':
+		return ''
+	try:
+		response = urllib2.urlopen(provinceURL)  
+	except:
+		print 'urlopen url:%s error' %(provinceURL)
+		return ''
 	htmlByte = response.read()  
 	htmlStr = htmlByte.decode("utf8")  
 
 	soup2 = BeautifulSoup(htmlStr)  
 	div = soup2.find("div", class_ = "hanml")  
 	lista = div.find_all("a", text = city)  
-	cityURL = lista[0]["href"].replace("www.weather.com.cn/weather", "m.weather.com.cn/data")  
+	cityURL = lista[0]["href"].replace("www.weather.com.cn/weather", "m.weather.com.cn/atad")   #new interface
 	cityURL = cityURL.replace("shtml", "html")  
 	return cityURL  
 	''''' 
 # GetProvinceURL 测试代码 
 	print GetProvinceURL(u"广东") 
-	'''  
+
+'''	
+
+'''
 # GetProvinceURL 测试代码  
 provinceURL = GetProvinceURL(u"广东")  
 print provinceURL  
 cityURL = GetCityURL(provinceURL, u"广州")  
 print cityURL  
+
+'''
+
+
