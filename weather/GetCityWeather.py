@@ -15,35 +15,40 @@ def SwitchGetCityWeather(cityURL):
 	file_name='./data/%s'%(name_map[-1]);
 	if os.path.exists(file_name):
 		st=GetCityWeather_byfile(file_name)
+		return st
 	else:
 		st=GetCityWeather(cityURL)	
-	return st
+		return st
 
 def GetCityWeather_byfile(html_file):
 	if html_file=='':
 		return ''
-	fp_r=open(html_file,"r");
-	htmlByte=fp_r.readline();
-	htmlStr = htmlByte.decode("utf8") 
-	st = json.loads(htmlStr);  
-	fp_r.close()
-	return st 
+	print 'GetCityWeather: %s ' %(html_file)
+	try:
+		fp_r=open(html_file,"r");
+		htmlByte=fp_r.readline();
+		htmlStr = htmlByte.decode("utf8") 
+		st = json.loads(htmlStr);  
+		fp_r.close()
+		return st 
+	except:
+		return ''
 
 def GetCityWeather(cityURL): 
 	if cityURL=='':
 		return ''
 	try:
+		print 'GetCityWeather: %s ' %(cityURL)
 		try:
-			print 'GetCityWeather %s ' %(cityURL)
 			response = urllib2.urlopen(cityURL) 
+			htmlByte = response.read() 
+			htmlStr = htmlByte.decode("utf8") 
+			st = json.loads(htmlStr);  
+			save_weather_html(htmlByte,cityURL) 
+			return st 
 		except urllib2.HTTPError, e:
 			print e.code
 			return ''
-		htmlByte = response.read() 
-		save_weather_html(htmlByte,cityURL) 
-		htmlStr = htmlByte.decode("utf8") 
-		st = json.loads(htmlStr);  
-		return st 
 	except:
 		st='';  
 		return st
@@ -67,7 +72,6 @@ def save_weather_html(content,cityURL):
 # GetCityWeather测试代码 
 # GetProvinceURL 测试代码
 #cityURL = "http://m.weather.com.cn/atad/101280101.html" 
-
 ''''
 cityURL = "http://m.weather.com.cn/atad/101020100.html"
 st=SwitchGetCityWeather(cityURL);
@@ -79,6 +83,7 @@ print ss["week"]
 print ss["temp1"] 
 print ss["weather1"] 
 '''
+
 ''''' 
 # 输出 
 	广州 
