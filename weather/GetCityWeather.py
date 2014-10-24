@@ -64,7 +64,9 @@ def GetCityWeather(cityURL):
 	try:
 		print 'GetCityWeather: %s ' %(cityURL)
 		try:
-			response = urllib2.urlopen(cityURL) 
+			i_headers ={'User-Agent':'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6',"Referer":'http://www.weather.com.cn'} 
+			req=urllib2.Request(cityURL,headers=i_headers)
+			response = urllib2.urlopen(req) 
 			htmlByte = response.read() 
 			htmlStr = htmlByte.decode("utf8") 
 			st = json.loads(htmlStr);  

@@ -5,8 +5,9 @@ import GetIP
 import GetCity  
 import GetCityID  
 import GetCityWeather  
-from multiprocessing import Process 
+import threading
 
+import time
 def get_id_by_name(name):
 	city_dic={};
 	f=open("./config/city_id.txt","r")
@@ -87,7 +88,11 @@ def weatherinfo_by_default_name():
 
 def one_process(cityname):
 	st=weatherinfo_byname(cityname)
+	if st=='' :
+		city_id=get_id_by_name(cityname);
+		print '%s:%s'%(cityname,city_id)
 	print_weather_info(st)
+	time.sleep(0.3)
 
 def weatherinfo_create_allcity_cache():
 	fp_r=open("./config/city_id.txt","r")
@@ -100,14 +105,11 @@ def weatherinfo_create_allcity_cache():
 		if line[0]=='#' or line[0]=='\n':
 			continue
 		city_map=line.split('\t');
-		proc=Process(target=one_process,args=(city_map[0],));
+		proc=threading.Thread(target=one_process,args=(city_map[0],));
 		mul_jobs.append(proc);
 		proc.start();
-		#one_process(city_map[0])
-		#st=weatherinfo_byname(city_map[0])
-		#print_weather_info(st)		
 	for p in mul_jobs:
-		p.join()
+		 p.join();
 	fp_r.close()
 			
 #st=auto_get_weather_info()

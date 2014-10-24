@@ -1,0 +1,940 @@
+更新所有天气缓存
+GetCityWeather: ./data/101010100.html 
+can not get weather information
+GetCityWeather: ./data/101071201.html 
+can not get weather information
+GetCityWeather: ./data/101010400.html 
+can not get weather information
+GetCityWeather: ./data/101010500.html 
+can not get weather information
+GetCityWeather: ./data/101010600.html 
+can not get weather information
+GetCityWeather: ./data/101010700.html 
+can not get weather information
+GetCityWeather: ./data/101010800.html 
+can not get weather information
+GetCityWeather: ./data/101010900.html 
+can not get weather information
+GetCityWeather: ./data/101011000.html 
+can not get weather information
+GetCityWeather: ./data/101011100.html 
+can not get weather information
+GetCityWeather: ./data/101011200.html 
+can not get weather information
+GetCityWeather: ./data/101011300.html 
+can not get weather information
+GetCityWeather: ./data/101011400.html 
+can not get weather information
+GetCityWeather: ./data/101011500.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101011600.html 
+GetCityWeather: http://m.weather.com.cn/atad/101011700.html 
+GetCityWeather: http://m.weather.com.cn/atad/101011800.html 
+GetCityWeather: http://m.weather.com.cn/atad/101011900.html 
+GetCityWeather: http://m.weather.com.cn/atad/101012000.html 
+GetCityWeather: http://m.weather.com.cn/atad/101012100.html 
+GetCityWeather: http://m.weather.com.cn/atad/101012200.html 
+GetCityWeather: ./data/101010200.html 
+can not get weather information
+GetCityWeather: ./data/101030100.html 
+can not get weather information
+GetCityWeather: ./data/101030300.html 
+can not get weather information
+GetCityWeather: ./data/101030400.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101030500.html 
+GetCityWeather: ./data/101030600.html 
+can not get weather information
+GetCityWeather: ./data/101031400.html 
+can not get weather information
+GetCityWeather: ./data/101030800.html 
+can not get weather information
+GetCityWeather: ./data/101030900.html 
+can not get weather information
+GetCityWeather: ./data/101031000.html 
+can not get weather information
+GetCityWeather: ./data/101031100.html 
+can not get weather information
+GetCityWeather: ./data/101031200.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101030200.html 
+GetCityWeather: ./data/101030700.html 
+can not get weather information
+GetCityWeather: ./data/101020100.html 
+can not get weather information
+GetCityWeather: ./data/101020300.html 
+can not get weather information
+GetCityWeather: ./data/101020500.html 
+can not get weather information
+GetCityWeather: ./data/101020600.html 
+can not get weather information
+GetCityWeather: ./data/101021300.html 
+can not get weather information
+GetCityWeather: ./data/101020800.html 
+can not get weather information
+GetCityWeather: ./data/101020900.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101021000.html 
+GetCityWeather: ./data/101021100.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101021200.html 
+GetCityWeather: ./data/101020200.html 
+can not get weather information
+GetCityWeather: ./data/101020700.html 
+can not get weather information
+GetCityWeather: ./data/101090101.html 
+can not get weather information
+GetCityWeather: ./data/101090301.html 
+can not get weather information
+GetCityWeather: ./data/101090402.html 
+can not get weather information
+GetCityWeather: ./data/101090501.html 
+can not get weather information
+GetCityWeather: ./data/101091101.html 
+can not get weather information
+GetCityWeather: ./data/101090701.html 
+can not get weather information
+GetCityWeather: ./data/101090801.html 
+can not get weather information
+GetCityWeather: ./data/101091001.html 
+can not get weather information
+GetCityWeather: ./data/101090901.html 
+can not get weather information
+GetCityWeather: ./data/101090201.html 
+can not get weather information
+GetCityWeather: ./data/101090601.html 
+can not get weather information
+GetCityWeather: ./data/101180101.html 
+can not get weather information
+GetCityWeather: ./data/101180301.html 
+can not get weather information
+GetCityWeather: ./data/101180401.html 
+can not get weather information
+GetCityWeather: ./data/101180501.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101180601.html 
+GetCityWeather: ./data/101180701.html 
+can not get weather information
+GetCityWeather: ./data/101180801.html 
+can not get weather information
+GetCityWeather: ./data/101180901.html 
+can not get weather information
+GetCityWeather: ./data/101181001.html 
+can not get weather information
+GetCityWeather: ./data/101181101.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101181201.html 
+GetCityWeather: ./data/101181301.html 
+can not get weather information
+GetCityWeather: ./data/101181401.html 
+can not get weather information
+GetCityWeather: ./data/101181501.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101181601.html 
+GetCityWeather: ./data/101181701.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101181801.html 
+GetCityWeather: ./data/101180201.html 
+can not get weather information
+GetCityWeather: ./data/101220101.html 
+can not get weather information
+GetCityWeather: ./data/101220301.html 
+can not get weather information
+GetCityWeather: ./data/101220401.html 
+can not get weather information
+GetCityWeather: ./data/101220501.html 
+can not get weather information
+GetCityWeather: ./data/101220601.html 
+can not get weather information
+GetCityWeather: ./data/101220701.html 
+can not get weather information
+GetCityWeather: ./data/101220801.html 
+can not get weather information
+GetCityWeather: ./data/101220901.html 
+can not get weather information
+GetCityWeather: ./data/101221001.html 
+can not get weather information
+GetCityWeather: ./data/101221101.html 
+can not get weather information
+GetCityWeather: ./data/101221201.html 
+can not get weather information
+GetCityWeather: ./data/101221301.html 
+can not get weather information
+GetCityWeather: ./data/101221401.html 
+can not get weather information
+GetCityWeather: ./data/101221501.html 
+can not get weather information
+GetCityWeather: ./data/101221601.html 
+can not get weather information
+GetCityWeather: ./data/101221701.html 
+can not get weather information
+GetCityWeather: ./data/101220201.html 
+can not get weather information
+GetCityWeather: ./data/101210101.html 
+can not get weather information
+GetCityWeather: ./data/101211101.html 
+can not get weather information
+GetCityWeather: ./data/101210201.html 
+can not get weather information
+GetCityWeather: ./data/101210301.html 
+can not get weather information
+GetCityWeather: ./data/101210901.html 
+can not get weather information
+GetCityWeather: ./data/101210501.html 
+can not get weather information
+GetCityWeather: ./data/101210601.html 
+can not get weather information
+GetCityWeather: ./data/101210701.html 
+can not get weather information
+GetCityWeather: ./data/101210801.html 
+can not get weather information
+GetCityWeather: ./data/101211001.html 
+can not get weather information
+GetCityWeather: ./data/101210401.html 
+can not get weather information
+GetCityWeather: ./data/101040100.html 
+can not get weather information
+GetCityWeather: ./data/101040300.html 
+can not get weather information
+GetCityWeather: ./data/101040400.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101040500.html 
+GetCityWeather: ./data/101040600.html 
+can not get weather information
+GetCityWeather: ./data/101040700.html 
+can not get weather information
+GetCityWeather: ./data/101040800.html 
+can not get weather information
+GetCityWeather: ./data/101040900.html 
+can not get weather information
+GetCityWeather: ./data/101041000.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101041100.html 
+GetCityWeather: http://m.weather.com.cn/atad/101041200.html 
+GetCityWeather: ./data/101041300.html 
+can not get weather information
+GetCityWeather: ./data/101041400.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101041500.html 
+GetCityWeather: ./data/101041600.html 
+can not get weather information
+GetCityWeather: ./data/101041700.html 
+can not get weather information
+GetCityWeather: ./data/101041800.html 
+can not get weather information
+GetCityWeather: ./data/101041900.html 
+can not get weather information
+GetCityWeather: ./data/101042000.html 
+can not get weather information
+GetCityWeather: ./data/101042100.html 
+can not get weather information
+GetCityWeather: ./data/101042200.html 
+can not get weather information
+GetCityWeather: ./data/101042300.html 
+can not get weather information
+GetCityWeather: ./data/101042400.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101042500.html 
+GetCityWeather: http://m.weather.com.cn/atad/101042600.html 
+GetCityWeather: http://m.weather.com.cn/atad/101042700.html 
+GetCityWeather: ./data/101042800.html 
+can not get weather information
+GetCityWeather: ./data/101042900.html 
+can not get weather information
+GetCityWeather: ./data/101043000.html 
+can not get weather information
+GetCityWeather: ./data/101043100.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101043200.html 
+GetCityWeather: ./data/101043300.html 
+can not get weather information
+GetCityWeather: ./data/101043400.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101043600.html 
+GetCityWeather: http://m.weather.com.cn/atad/101043700.html 
+GetCityWeather: ./data/101040200.html 
+can not get weather information
+GetCityWeather: ./data/101230101.html 
+can not get weather information
+GetCityWeather: ./data/101230501.html 
+can not get weather information
+GetCityWeather: ./data/101230601.html 
+can not get weather information
+GetCityWeather: ./data/101230701.html 
+can not get weather information
+GetCityWeather: ./data/101230509.html 
+can not get weather information
+GetCityWeather: ./data/101230901.html 
+can not get weather information
+GetCityWeather: ./data/101230201.html 
+can not get weather information
+GetCityWeather: ./data/101230301.html 
+can not get weather information
+GetCityWeather: ./data/101230401.html 
+can not get weather information
+GetCityWeather: ./data/101230801.html 
+can not get weather information
+GetCityWeather: ./data/101160101.html 
+can not get weather information
+GetCityWeather: ./data/101160301.html 
+can not get weather information
+GetCityWeather: ./data/101160401.html 
+can not get weather information
+GetCityWeather: ./data/101160501.html 
+can not get weather information
+GetCityWeather: ./data/101160601.html 
+can not get weather information
+GetCityWeather: ./data/101161401.html 
+can not get weather information
+GetCityWeather: ./data/101160801.html 
+can not get weather information
+GetCityWeather: ./data/101160901.html 
+can not get weather information
+GetCityWeather: ./data/101161001.html 
+can not get weather information
+GetCityWeather: ./data/101161101.html 
+can not get weather information
+GetCityWeather: ./data/101161201.html 
+can not get weather information
+GetCityWeather: ./data/101161301.html 
+can not get weather information
+GetCityWeather: ./data/101160201.html 
+can not get weather information
+GetCityWeather: ./data/101160701.html 
+can not get weather information
+GetCityWeather: ./data/101280101.html 
+can not get weather information
+GetCityWeather: ./data/101280301.html 
+can not get weather information
+GetCityWeather: ./data/101280401.html 
+can not get weather information
+GetCityWeather: ./data/101280501.html 
+can not get weather information
+GetCityWeather: ./data/101280601.html 
+can not get weather information
+GetCityWeather: ./data/101280701.html 
+can not get weather information
+GetCityWeather: ./data/101280800.html 
+can not get weather information
+GetCityWeather: ./data/101280901.html 
+can not get weather information
+GetCityWeather: ./data/101281001.html 
+can not get weather information
+GetCityWeather: ./data/101281101.html 
+can not get weather information
+GetCityWeather: ./data/101281201.html 
+can not get weather information
+GetCityWeather: ./data/101281301.html 
+can not get weather information
+GetCityWeather: ./data/101281401.html 
+can not get weather information
+GetCityWeather: ./data/101281501.html 
+can not get weather information
+GetCityWeather: ./data/101281601.html 
+can not get weather information
+GetCityWeather: ./data/101281801.html 
+can not get weather information
+GetCityWeather: ./data/101281701.html 
+can not get weather information
+GetCityWeather: ./data/101281901.html 
+can not get weather information
+GetCityWeather: ./data/101282001.html 
+can not get weather information
+GetCityWeather: ./data/101282101.html 
+can not get weather information
+GetCityWeather: ./data/101280201.html 
+can not get weather information
+GetCityWeather: ./data/101300101.html 
+can not get weather information
+GetCityWeather: ./data/101300301.html 
+can not get weather information
+GetCityWeather: ./data/101300401.html 
+can not get weather information
+GetCityWeather: ./data/101300501.html 
+can not get weather information
+GetCityWeather: ./data/101300601.html 
+can not get weather information
+GetCityWeather: ./data/101301401.html 
+can not get weather information
+GetCityWeather: ./data/101300801.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101300901.html 
+GetCityWeather: ./data/101301001.html 
+can not get weather information
+GetCityWeather: ./data/101301101.html 
+can not get weather information
+GetCityWeather: ./data/101301201.html 
+can not get weather information
+GetCityWeather: ./data/101301301.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101300201.html 
+GetCityWeather: ./data/101300701.html 
+can not get weather information
+GetCityWeather: ./data/101260101.html 
+can not get weather information
+GetCityWeather: ./data/101260301.html 
+can not get weather information
+GetCityWeather: ./data/101260401.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101260906.html 
+GetCityWeather: ./data/101260601.html 
+can not get weather information
+GetCityWeather: ./data/101260701.html 
+can not get weather information
+GetCityWeather: ./data/101260801.html 
+can not get weather information
+GetCityWeather: ./data/101260201.html 
+can not get weather information
+GetCityWeather: ./data/101260501.html 
+can not get weather information
+GetCityWeather: ./data/101290101.html 
+can not get weather information
+GetCityWeather: ./data/101290301.html 
+can not get weather information
+GetCityWeather: ./data/101290601.html 
+can not get weather information
+GetCityWeather: ./data/101290701.html 
+can not get weather information
+GetCityWeather: ./data/101290801.html 
+can not get weather information
+GetCityWeather: ./data/101290901.html 
+can not get weather information
+GetCityWeather: ./data/101291001.html 
+can not get weather information
+GetCityWeather: ./data/101291101.html 
+can not get weather information
+GetCityWeather: ./data/101291201.html 
+can not get weather information
+GetCityWeather: ./data/101291301.html 
+can not get weather information
+GetCityWeather: ./data/101291401.html 
+can not get weather information
+GetCityWeather: ./data/101291501.html 
+can not get weather information
+GetCityWeather: ./data/101291601.html 
+can not get weather information
+GetCityWeather: ./data/101290201.html 
+can not get weather information
+GetCityWeather: ./data/101290401.html 
+can not get weather information
+GetCityWeather: ./data/101290501.html 
+can not get weather information
+GetCityWeather: ./data/101080101.html 
+can not get weather information
+GetCityWeather: ./data/101080301.html 
+can not get weather information
+GetCityWeather: ./data/101080401.html 
+can not get weather information
+GetCityWeather: ./data/101080501.html 
+can not get weather information
+GetCityWeather: ./data/101081201.html 
+can not get weather information
+GetCityWeather: ./data/101080701.html 
+can not get weather information
+GetCityWeather: ./data/101080801.html 
+can not get weather information
+GetCityWeather: ./data/101080901.html 
+can not get weather information
+GetCityWeather: ./data/101081000.html 
+can not get weather information
+GetCityWeather: ./data/101081101.html 
+can not get weather information
+GetCityWeather: ./data/101080201.html 
+can not get weather information
+GetCityWeather: ./data/101080601.html 
+can not get weather information
+GetCityWeather: ./data/101240101.html 
+can not get weather information
+GetCityWeather: ./data/101240301.html 
+can not get weather information
+GetCityWeather: ./data/101240401.html 
+can not get weather information
+GetCityWeather: ./data/101240501.html 
+can not get weather information
+GetCityWeather: ./data/101241101.html 
+can not get weather information
+GetCityWeather: ./data/101240701.html 
+can not get weather information
+GetCityWeather: ./data/101240801.html 
+can not get weather information
+GetCityWeather: ./data/101240901.html 
+can not get weather information
+GetCityWeather: ./data/101241001.html 
+can not get weather information
+GetCityWeather: ./data/101240201.html 
+can not get weather information
+GetCityWeather: ./data/101240601.html 
+can not get weather information
+GetCityWeather: ./data/101200101.html 
+can not get weather information
+GetCityWeather: ./data/101200501.html 
+can not get weather information
+GetCityWeather: ./data/101200801.html 
+can not get weather information
+GetCityWeather: ./data/101200901.html 
+can not get weather information
+GetCityWeather: ./data/101201001.html 
+can not get weather information
+GetCityWeather: ./data/101201101.html 
+can not get weather information
+GetCityWeather: ./data/101201201.html 
+can not get weather information
+GetCityWeather: ./data/101201301.html 
+can not get weather information
+GetCityWeather: ./data/101201401.html 
+can not get weather information
+GetCityWeather: ./data/101201501.html 
+can not get weather information
+GetCityWeather: ./data/101201601.html 
+can not get weather information
+GetCityWeather: ./data/101201701.html 
+can not get weather information
+GetCityWeather: ./data/101200201.html 
+can not get weather information
+GetCityWeather: ./data/101200301.html 
+can not get weather information
+GetCityWeather: ./data/101200401.html 
+can not get weather information
+GetCityWeather: ./data/101200601.html 
+can not get weather information
+GetCityWeather: ./data/101200701.html 
+can not get weather information
+GetCityWeather: ./data/101270101.html 
+can not get weather information
+GetCityWeather: ./data/101270301.html 
+can not get weather information
+GetCityWeather: ./data/101270401.html 
+can not get weather information
+GetCityWeather: ./data/101270501.html 
+can not get weather information
+GetCityWeather: ./data/101270601.html 
+can not get weather information
+GetCityWeather: ./data/101270701.html 
+can not get weather information
+GetCityWeather: ./data/101270801.html 
+can not get weather information
+GetCityWeather: ./data/101270901.html 
+can not get weather information
+GetCityWeather: ./data/101271001.html 
+can not get weather information
+GetCityWeather: ./data/101271101.html 
+can not get weather information
+GetCityWeather: ./data/101271201.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101271301.html 
+GetCityWeather: ./data/101271401.html 
+can not get weather information
+GetCityWeather: ./data/101271501.html 
+can not get weather information
+GetCityWeather: ./data/101271601.html 
+can not get weather information
+GetCityWeather: ./data/101271701.html 
+can not get weather information
+GetCityWeather: ./data/101271801.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101271901.html 
+GetCityWeather: ./data/101272001.html 
+can not get weather information
+GetCityWeather: ./data/101272101.html 
+can not get weather information
+GetCityWeather: ./data/101270201.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101170101.html 
+GetCityWeather: ./data/101170501.html 
+can not get weather information
+GetCityWeather: ./data/101170401.html 
+can not get weather information
+GetCityWeather: ./data/101170201.html 
+can not get weather information
+GetCityWeather: ./data/101170301.html 
+can not get weather information
+GetCityWeather: ./data/101150101.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101150301.html 
+GetCityWeather: ./data/101150801.html 
+can not get weather information
+GetCityWeather: ./data/101150501.html 
+can not get weather information
+GetCityWeather: ./data/101150601.html 
+can not get weather information
+GetCityWeather: ./data/101150701.html 
+can not get weather information
+GetCityWeather: ./data/101150201.html 
+can not get weather information
+GetCityWeather: ./data/101150401.html 
+can not get weather information
+GetCityWeather: ./data/101120101.html 
+can not get weather information
+GetCityWeather: ./data/101120601.html 
+can not get weather information
+GetCityWeather: ./data/101120901.html 
+can not get weather information
+GetCityWeather: ./data/101121001.html 
+can not get weather information
+GetCityWeather: ./data/101121101.html 
+can not get weather information
+GetCityWeather: ./data/101121201.html 
+can not get weather information
+GetCityWeather: ./data/101121301.html 
+can not get weather information
+GetCityWeather: ./data/101121401.html 
+can not get weather information
+GetCityWeather: ./data/101121501.html 
+can not get weather information
+GetCityWeather: ./data/101121601.html 
+can not get weather information
+GetCityWeather: ./data/101121701.html 
+can not get weather information
+GetCityWeather: ./data/101120201.html 
+can not get weather information
+GetCityWeather: ./data/101120301.html 
+can not get weather information
+GetCityWeather: ./data/101120401.html 
+can not get weather information
+GetCityWeather: ./data/101120501.html 
+can not get weather information
+GetCityWeather: ./data/101120701.html 
+can not get weather information
+GetCityWeather: ./data/101120801.html 
+can not get weather information
+GetCityWeather: ./data/101110101.html 
+can not get weather information
+GetCityWeather: ./data/101110300.html 
+can not get weather information
+GetCityWeather: ./data/101110401.html 
+can not get weather information
+GetCityWeather: ./data/101111001.html 
+can not get weather information
+GetCityWeather: ./data/101110601.html 
+can not get weather information
+GetCityWeather: ./data/101110701.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101110801.html 
+GetCityWeather: ./data/101110901.html 
+can not get weather information
+GetCityWeather: ./data/101110200.html 
+can not get weather information
+GetCityWeather: ./data/101110501.html 
+can not get weather information
+GetCityWeather: ./data/101100101.html 
+can not get weather information
+GetCityWeather: ./data/101100701.html 
+can not get weather information
+GetCityWeather: ./data/101100801.html 
+can not get weather information
+GetCityWeather: ./data/101100901.html 
+can not get weather information
+GetCityWeather: ./data/101101001.html 
+can not get weather information
+GetCityWeather: ./data/101100501.html 
+can not get weather information
+GetCityWeather: ./data/101100201.html 
+can not get weather information
+GetCityWeather: ./data/101100301.html 
+can not get weather information
+GetCityWeather: ./data/101100401.html 
+can not get weather information
+GetCityWeather: ./data/101100601.html 
+can not get weather information
+GetCityWeather: ./data/101101100.html 
+can not get weather information
+GetCityWeather: ./data/101130101.html 
+can not get weather information
+GetCityWeather: ./data/101130301.html 
+can not get weather information
+GetCityWeather: ./data/101130401.html 
+can not get weather information
+GetCityWeather: ./data/101130501.html 
+can not get weather information
+GetCityWeather: ./data/101130601.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101130701.html 
+GetCityWeather: ./data/101130801.html 
+can not get weather information
+GetCityWeather: ./data/101130901.html 
+can not get weather information
+GetCityWeather: ./data/101131001.html 
+can not get weather information
+GetCityWeather: ./data/101131101.html 
+can not get weather information
+GetCityWeather: ./data/101131201.html 
+can not get weather information
+GetCityWeather: ./data/101131301.html 
+can not get weather information
+GetCityWeather: ./data/101131401.html 
+玉林:101300901
+can not get weather information
+can not get weather information
+GetCityWeather: ./data/101131501.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101131601.html 
+GetCityWeather: ./data/101130201.html 
+can not get weather information
+GetCityWeather: ./data/101140101.html 
+can not get weather information
+GetCityWeather: ./data/101140301.html 
+can not get weather information
+GetCityWeather: ./data/101140701.html 
+can not get weather information
+GetCityWeather: ./data/101140501.html 
+can not get weather information
+GetCityWeather: ./data/101140601.html 
+can not get weather information
+GetCityWeather: ./data/101140201.html 
+can not get weather information
+GetCityWeather: ./data/101140401.html 
+can not get weather information
+GetCityWeather: ./data/101340101.html 
+can not get weather information
+GetCityWeather: ./data/101340201.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101340401.html 
+GetCityWeather: ./data/101310101.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101310201.html 
+GetCityWeather: ./data/101310202.html 
+can not get weather information
+GetCityWeather: ./data/101310203.html 
+can not get weather information
+GetCityWeather: ./data/101310204.html 
+can not get weather information
+GetCityWeather: ./data/101310205.html 
+can not get weather information
+GetCityWeather: ./data/101310206.html 
+can not get weather information
+GetCityWeather: ./data/101310207.html 
+can not get weather information
+GetCityWeather: ./data/101310208.html 
+can not get weather information
+GetCityWeather: ./data/101310209.html 
+can not get weather information
+GetCityWeather: ./data/101310210.html 
+can not get weather information
+GetCityWeather: ./data/101310211.html 
+can not get weather information
+GetCityWeather: ./data/101310212.html 
+can not get weather information
+GetCityWeather: ./data/101310214.html 
+can not get weather information
+GetCityWeather: ./data/101310215.html 
+can not get weather information
+GetCityWeather: ./data/101310216.html 
+can not get weather information
+GetCityWeather: ./data/101310217.html 
+can not get weather information
+GetCityWeather: ./data/101310220.html 
+can not get weather information
+GetCityWeather: ./data/101310221.html 
+can not get weather information
+GetCityWeather: ./data/101310222.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101310102.html 
+GetCityWeather: ./data/101250101.html 
+can not get weather information
+GetCityWeather: ./data/101250301.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101250401.html 
+GetCityWeather: ./data/101250501.html 
+can not get weather information
+GetCityWeather: ./data/101250601.html 
+can not get weather information
+GetCityWeather: ./data/101250700.html 
+can not get weather information
+GetCityWeather: ./data/101250801.html 
+can not get weather information
+GetCityWeather: ./data/101250901.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101251001.html 
+GetCityWeather: http://m.weather.com.cn/atad/101251101.html 
+GetCityWeather: ./data/101251201.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101251301.html 
+GetCityWeather: ./data/101251401.html 
+can not get weather information
+GetCityWeather: ./data/101251501.html 
+can not get weather information
+GetCityWeather: ./data/101250201.html 
+can not get weather information
+GetCityWeather: ./data/101190101.html 
+can not get weather information
+GetCityWeather: ./data/101190301.html 
+can not get weather information
+GetCityWeather: ./data/101190401.html 
+can not get weather information
+GetCityWeather: ./data/101190501.html 
+can not get weather information
+GetCityWeather: ./data/101190601.html 
+can not get weather information
+GetCityWeather: ./data/101191301.html 
+can not get weather information
+GetCityWeather: ./data/101190801.html 
+can not get weather information
+GetCityWeather: ./data/101190901.html 
+can not get weather information
+GetCityWeather: ./data/101191001.html 
+can not get weather information
+GetCityWeather: ./data/101191101.html 
+can not get weather information
+GetCityWeather: ./data/101191201.html 
+can not get weather information
+GetCityWeather: ./data/101190201.html 
+can not get weather information
+GetCityWeather: ./data/101190701.html 
+can not get weather information
+GetCityWeather: ./data/101050101.html 
+can not get weather information
+GetCityWeather: ./data/101050301.html 
+can not get weather information
+GetCityWeather: ./data/101050401.html 
+can not get weather information
+GetCityWeather: ./data/101050501.html 
+can not get weather information
+GetCityWeather: ./data/101050601.html 
+can not get weather information
+GetCityWeather: ./data/101051301.html 
+can not get weather information
+GetCityWeather: ./data/101050801.html 
+can not get weather information
+GetCityWeather: ./data/101050901.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101051002.html 
+GetCityWeather: ./data/101051101.html 
+can not get weather information
+GetCityWeather: ./data/101051201.html 
+can not get weather information
+GetCityWeather: ./data/101050201.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101050701.html 
+GetCityWeather: ./data/101060101.html 
+can not get weather information
+GetCityWeather: ./data/101060301.html 
+can not get weather information
+GetCityWeather: ./data/101060401.html 
+can not get weather information
+GetCityWeather: ./data/101060901.html 
+can not get weather information
+GetCityWeather: ./data/101060601.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101060701.html 
+GetCityWeather: ./data/101060801.html 
+can not get weather information
+GetCityWeather: ./data/101060201.html 
+can not get weather information
+GetCityWeather: http://m.weather.com.cn/atad/101060501.html 
+GetCityWeather: ./data/101070101.html 
+can not get weather information
+GetCityWeather: ./data/101070301.html 
+can not get weather information
+GetCityWeather: ./data/101070401.html 
+can not get weather information
+GetCityWeather: ./data/101070501.html 
+can not get weather information
+GetCityWeather: ./data/101070601.html 
+can not get weather information
+GetCityWeather: ./data/101071401.html 
+can not get weather information
+GetCityWeather: ./data/101070801.html 
+can not get weather information
+GetCityWeather: ./data/101070901.html 
+can not get weather information
+资阳:101271301
+can not get weather information
+GetCityWeather: ./data/101071001.html 
+can not get weather information
+GetCityWeather: ./data/101071101.html 
+can not get weather information
+GetCityWeather: ./data/101071201.html 
+can not get weather information
+GetCityWeather: ./data/101071301.html 
+can not get weather information
+GetCityWeather: ./data/101070201.html 
+can not get weather information
+黄南:101150301
+can not get weather information
+汉中:101110801
+can not get weather information
+404
+密云上甸子:101011900
+can not get weather information
+
+can not get weather information
+
+can not get weather information
+
+can not get weather information
+北京城区:101012200
+can not get weather information
+奉贤:101021000
+can not get weather information
+驻马店:101181601
+can not get weather information
+霞云岭:101012100
+can not get weather information
+汤河口:101011800
+can not get weather information
+佛爷顶:101011700
+can not get weather information
+
+can not get weather information
+济源:101181801
+can not get weather information
+武清:101030200
+can not get weather information
+开县:101041500
+can not get weather information
+八达岭:101011600
+can not get weather information
+江津:101040500
+can not get weather information
+大足:101042600
+can not get weather information
+秀山:101043600
+can not get weather information
+石柱:101042500
+can not get weather information
+信阳:101180601
+can not get weather information
+万州天城:101041200
+can not get weather information
+三亚:101310201
+can not get weather information
+崇左:101300201
+can not get weather information
+台中:101340401
+can not get weather information
+兴义:101260906
+can not get weather information
+荣昌:101042700
+can not get weather information
+彭水:101043200
+can not get weather information
+岳阳:101251001
+can not get weather information
+张家界:101251101
+can not get weather information
+通化:101060501
+can not get weather information
+琼山:101310102
+can not get weather information
+阿坝:101271901
+can not get weather information
+大兴安岭:101050701
+can not get weather information
+七台河:101051002
+can not get weather information
+黔阳:101251301
+can not get weather information
+斋堂:101012000
+can not get weather information
+沙坪坝:101043700
+can not get weather information
+辽源:101060701
+can not get weather information
+博乐:101131601
+can not get weather information
+阿拉尔:101130701
+can not get weather information
+衡阳:101250401
+can not get weather information
+银川:101170101
+can not get weather information
